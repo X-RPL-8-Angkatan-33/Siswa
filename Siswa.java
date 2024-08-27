@@ -1,8 +1,8 @@
 //Object Class
 public class Siswa {
-    int id;
-    String nama;
-    double ipk;
+    private int id;
+    private String nama;
+    private double ipk;
 
     //Construstor
     //method yg bernama sama dgn nama Class
@@ -17,6 +17,18 @@ public class Siswa {
         //variabel = parameter
         this.id = id;
         this.nama = nama;
+        this.ipk = ipk;
+    }
+
+    //method Setter/Mutator-->untuk mengubah nilai
+    //access_modifier tipe_data nama_method
+    public void setID(int id) {
+        this.id = id;
+    }
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    public void setIPK(double ipk) {
         this.ipk = ipk;
     }
 }

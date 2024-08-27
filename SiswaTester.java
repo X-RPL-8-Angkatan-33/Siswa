@@ -1,4 +1,3 @@
-
 //Driver Class
 import java.util.Scanner;
 
@@ -19,13 +18,18 @@ public class SiswaTester {
         Siswa dana = new Siswa(id, nama, ipk);
 
         // mengubah nilai variabel
-        lia.id = 12345;
-        lia.nama = "Aprilia";
-        lia.ipk = 90;
+        lia.setID(1234);
+        lia.setNama("Aprilia");
+        lia.setIPK(90);
         System.out.println(lia.id);
         System.out.println(lia.nama);
         System.out.println(lia.ipk);
 
         System.out.println(andi.nama);
+        System.out.println(dana.id);
+        System.out.println(dana.nama);
+        System.out.println(dana.ipk);
+
+        in.close();
     }
 }
