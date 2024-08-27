@@ -31,4 +31,27 @@ public class Siswa {
     public void setIPK(double ipk) {
         this.ipk = ipk;
     }
+
+    //method Getter/Accessor--->untuk mengambil nilai
+    public int getID() {
+        return id;
+    }
+    public String getNama() {
+        return nama;
+    }
+    public double getIPK() {
+        return ipk;
+    }
+
+    public void print1() {
+        System.out.println("ID : " + id);
+        System.out.println("Nama : " + nama);
+        System.out.println("IPK : " + ipk);
+    }
+
+    public String print2() {
+        return "ID : " + id 
+        + "\nNama : " + nama 
+        + "\nIPK : " + ipk;
+    }
 }

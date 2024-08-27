@@ -21,14 +21,12 @@ public class SiswaTester {
         lia.setID(1234);
         lia.setNama("Aprilia");
         lia.setIPK(90);
-        System.out.println(lia.id);
-        System.out.println(lia.nama);
-        System.out.println(lia.ipk);
+        // System.out.println(lia.id);
+        // System.out.println(lia.nama);
+        // System.out.println(lia.ipk);
 
-        System.out.println(andi.nama);
-        System.out.println(dana.id);
-        System.out.println(dana.nama);
-        System.out.println(dana.ipk);
+        lia.print1();
+        System.out.println(lia.print2());
 
         in.close();
     }
